@@ -1,0 +1,22 @@
+@import 'fonts';
+@import '~bulma/sass/utilities/all';
+@import 'buefy';
+@import 'global';
+
+body {
+  background: linear-gradient(
+    45deg,
+    #b7e7ff 25%,
+    #a3e0ff 25%,
+    #a3e0ff 50%,
+    #b7e7ff 50%,
+    #b7e7ff 75%,
+    #a3e0ff 75%,
+    #a3e0ff
+  );
+  background-size: 100px 100px;
+  color: #757575;
+}
+p {
+  margin-bottom: 1em;
+}
